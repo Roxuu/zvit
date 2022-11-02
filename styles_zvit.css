@@ -1,0 +1,135 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+    font: 400 13px/1 "Gotham Pro", "Trebuchet MS", Helvetica, sans-serif;
+    background: #fffadd;
+    border-bottom: solid 3px #070be9;
+    border-top: solid 3px #3c60f2;
+}
+
+header {
+    text-align: center;
+}
+
+.header-title {
+    padding: 35px 0 28px 0;
+    display: inline-block;
+}
+
+.header-img {
+    float: right;
+    padding-right: 10px;
+}
+
+.header-img img{
+    height: 239px;
+    width: 186px;
+}
+
+.menu{
+    display: flex;
+    padding: 10px 3px 10px 3px;
+    width: 99%;
+}
+
+.menu .item{
+    position: relative;
+    height: 70px;
+    z-index: 2;
+    margin: 0 0.1rem 0 0.1rem;
+    width: 10.9%;
+}
+
+.menu .item a{
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+    background: #fbec5d;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    word-wrap: break-word;
+    border: 1px solid #fbec5d;
+    color: black;
+}
+
+.menu .item a:hover{
+    background: #ffd800;
+    border: 1px solid #e6c619;
+    transition: 0.2s linear;
+}
+
+.main {
+    display: flex;
+}
+
+.navigation {
+    padding: 10px 3px 10px 3px;
+}
+
+.navigation .item{
+    position: relative;
+    z-index: 2;
+    margin: 0 0.1rem 0 0.1rem;
+}
+
+.navigation .item a,
+.navigation .item button {
+    font: 400 13px/1 "Gotham Pro", "Trebuchet MS", Helvetica, sans-serif;
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+    background: #ffd800;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    word-wrap: break-word;
+    margin: 1rem 0 1rem 0;
+    min-height: 50px;
+    line-height: 26px;
+    width: 350px;
+    color: black;
+    border: 1px solid #ffd800;
+}
+
+.navigation .item button:hover,
+.navigation .item a:hover {
+    background: #ffd800;
+    border: 1px solid #e6c619;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.structure {
+    margin-left: 100px;
+    display: none;
+}
+
+.structure.show {
+    margin-left: 100px;
+    display: block;
+}
+
+.laba-output {
+    width: 100%;
+    margin: 26px 3px 10px 30px;
+}
+
+.laba-output iframe {
+    height: 570px;
+    border-radius: 15px;
+    position: relative;
+    width: 99%;
+}

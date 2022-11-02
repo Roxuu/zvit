@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Звіт з лабораторних робіт</title>
+    <link rel="stylesheet" type="text/css" href="styles_zvit.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ</h1>
+        <h1>З ДИСЦИПЛІНИ «ІНТЕРНЕТ-ТЕХНОЛОГІЇ та ПРОЄКТУВАННЯ WEB-ЗАСТОСУВАНЬ»</h1>
+        <br>
+        <h1>студента групи ІС-13 Циганка Романа</h1>
+      </div>
+      <div class="header-img">
+        <img src="myphoto.jpg" alt="me"> 
+      </div>
+      <nav class="menu">
+        <div class="item">
+          <a href="">Лабораторна<br>робота №1</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №2</a>
+        </div>
+        <div class="item">
+          <a href="ЛАБА-3.html">Лабораторна<br>робота №3</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №4</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №5</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №6</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №7</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №8</a>
+        </div>
+        <div class="item">
+          <a href="">Лабораторна<br>робота №9</a>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="laba-annotation">
+        <nav class="navigation">
+          <div class="item">
+            <a href="Бізнес-логіка.html" target="iframe">Опис предметного середовища</a>
+          </div>
+          <div class="item">
+            <a href="topic3.html" target="iframe">Тема, мета, місце розташування лаби</a>
+          </div>
+          <div class="item">
+            <a href="ЛАБА-3.html" target="iframe">Завдання №1</a>
+          </div>
+
+          <div class="item">
+            <button onclick="DropdownFunc()">Структура документа</button> 
+          </div>
+          <div class="structure" id="Dropdown">
+            <div class="item">
+              <a href="Site-1.html" target="iframe">Завдання №2.1 фіксована</a>
+            </div>
+            <div class="item">
+              <a href="Site-1.2.html" target="iframe">Завдання №2.1 гумова</a>
+            </div>
+            <div class="item">
+              <a href="Site-2.html" target="iframe">Завдання №2.2 фіксована</a>
+            </div>
+            <div class="item">
+              <a href="Site2-2.html" target="iframe">Завдання №2.2 гумова</a>
+            </div>
+
+          </div>
+          <div class="item">
+            <a href="Flexbox-site.html" target="iframe">Flexbox-site</a>
+          </div>
+          <div class="item">
+            <a href="Conclussion3.html" target="iframe">Висновки</a>
+          </div>
+
+        </nav>
+      </div>
+      <div class="laba-output">
+        <iframe name="iframe"> // вивід інфи
+        </iframe>
+      </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script>
+      function DropdownFunc() // функція для кнопки
+      {
+        document.getElementById("Dropdown").classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
