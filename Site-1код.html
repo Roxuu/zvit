@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Завдання№2-1 фіксована</h2>
+    <textarea name="taskone" id="one" cols="100" rows="100">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="stylez1.css">
+        </head>
+        <body>
+           <table id="fixed_table">
+            <tbody>
+              <td>
+            <tr>
+              <td rowspan="3" class="left-col">2</td>
+              <td class="cell1">1</td>
+            </tr>
+            <tr>
+              <td class="cell2">4</td>
+              
+            </tr>
+            <tr>
+            <td colspan="2" class="footer">3</td>  
+            </tr>
+          </td>
+          </tbody></table>
+        </body>
+        </html>  
+        CSS
+        #fixed_table{
+            width: 950px;
+            height: 900px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 22px;
+            font-weight: 600;
+            text-shadow: 0.5px 0.5px 1px black;
+            color: #444;;
+            
+          }
+        
+          #fixed_table .header,
+          #fixed_table .footer{
+            background: blue;
+            height: 100px;
+          }
+        
+          #fixed_table .left-col
+          {
+            background: gold;
+          }
+        
+          #fixed_table .left-col{
+            width: 120px;
+          }
+        
+          #fixed_table .cell1{
+            height: 100px;
+            background: blue;
+          }
+        
+          #fixed_table .cell2{
+            background: white;
+          }
+    </textarea>
+</body>
+</html>
