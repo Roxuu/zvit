@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="taskone" id="one" cols="100" rows="200">
+        <!DOCTYPE html>
+        <html lang="uk">
+        <head>
+        <title>Курси веб-програмування в Києві</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"; href="Flexbox-style.css"
+        </head>
+        <body>
+        
+        
+        <header>
+          <div style="flex-direction: column;height: 110px;">
+            <img src="logo.jpg">
+                <p style="float: right;padding-left: 400px;">Ми працюємо Пн-Пт 10:00-19:00 Сб-Нд Вихідний </p>
+                <p style="float: right; flex-wrap: nowrap;">Навчальний центр навчання -ІТ</p>
+           
+          </div>
+        </header>
+        
+        
+        <div style="display:flex ;flex-direction: column;width: 100%;">
+          <div style=" display: flex; flex-wrap: nowrap;" >
+                <div id="btn"> Головна</div>
+                <div id="btn"> Акції</div>
+                <div id="btn"> Курси</div>
+                <div id="btn"> Про_центр</div>
+                <div id="btn"> Контакти</div>
+                <div id="btn"> ціни </div>
+        
+          </div>
+        
+          <div style="display: flex;flex-wrap: nowrap;">
+              <div id="image-div"> <img src="col1.jpg"> </div>
+              <div id="sp"> </div>
+              <div id="image-div"> <img src="col2.jpg"> </div>
+              <div id="sp"> </div>
+              <div id="image-div"> <img src="col3.jpg"> </div>
+          </div>
+        
+            <div><h2>Курси веб-програмування в Києві</h2></div>
+            <div style="display: flex;flex-wrap: nowrap;">  
+                <div><img src="веб.jpg" alt="web"></div>
+                <div >
+                Ми шукаємо всіх тих, кому цікавий світ програмування! Хочете займатися розробкою програмного забезпечення і побудовою web - сайтів? А, може, Ви вже робите все це і жадаєте додаткових знань або вирішили підвищити свою кваліфікацію? Не біда, якщо ніколи і не пробували себе в подібному - команда IT готова надавати свої послуги людям будь-якого рівня знань. Якщо наші клієнти новачки, то ми почнемо заняття з основ, а якщо ж просунуті користувачі, то вони
+                починатимуть навчання 3, більш, складного матеріалу. при цьому, не зупиняючись на тому, що їм давно відомо. Теми для проведення занять дозволено вибирати на свій розсуд.
+                </div>
+            </div>                                                                                
+        </div>
+        </body>
+        </html>
+CSS
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Стиль заголовка */
+  header {
+    background-color: rgb(198, 192, 192);
+    padding: 15px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+  }
+  
+ 
+  
+  /* Стиль розділу footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Адаптивний макет - меню і зміст (всередині розділу) розташовуються один над одним, а не поруч один з одним. */
+  
+  
+  
+  #btn{
+
+background-color:rgb(65, 196, 232)  ;
+text-align: center;
+width: 155px;
+height: 60px;
+border-color: black; 
+border: 2px;
+margin: 50px;
+line-height: 60px;
+font-size: 20px;
+
+  }
+  #image-div{
+    width: 300px;
+    height: 500px;
+
+
+    
+  }
+  #sp{
+
+    background-color:rgb(255, 255, 255)  ;
+    text-align: center;
+    width: 35px;
+    height: 60px;
+     
+    
+    margin: 50px;
+    line-height: 60px;
+    font-size: 20px;
+      }
+
+    </textarea>
+</body>
+</html>
